@@ -39,9 +39,7 @@ public class Policies {
 //	        return "Policies [Policies=" + idPolicy + ", numberPolicy=" + numberPolicy + ", versionPolicy=" + versionPolicy + ", createdAt=" + timeStamp + "]";
 //	    }
 //	 
-	 	public void borrar() {
-	 		
-	 	};
+
 	 
 	    @Override
 	    public String toString() {
