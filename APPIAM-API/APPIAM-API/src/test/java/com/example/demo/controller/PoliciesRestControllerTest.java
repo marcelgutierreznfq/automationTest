@@ -1,8 +1,6 @@
 package com.example.demo.controller;
 
-import static org.junit.Assert.assertFalse;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
+import org.junit.Assert;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
@@ -42,9 +40,8 @@ public class PoliciesRestControllerTest {
    
         Mockito.when(policiesService.findAll()).thenReturn(listaPolizas);
         
-        assertFalse(policiesRestController.findAll().isEmpty());
-        
-        verify(policiesService,times(1)).findAll();
+        Assert.assertFalse(policiesRestController.findAll().isEmpty());        
+        Mockito.verify(policiesService,Mockito.times(1)).findAll();
         
 
 	}
