@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import org.junit.Assert;
+
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
@@ -12,6 +12,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.example.demo.entity.Policies;
 import com.example.demo.service.PoliciesService;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+
 @SpringBootTest
 public class PoliciesRestControllerTest {
 
@@ -22,7 +26,6 @@ public class PoliciesRestControllerTest {
 	@Mock
 	private PoliciesService policiesService;
 
-	
 	
 	@Test
 	@DisplayName("Se comprueba que el servicio retorna datos")
@@ -40,11 +43,14 @@ public class PoliciesRestControllerTest {
    
         Mockito.when(policiesService.findAll()).thenReturn(listaPolizas);
         
-        Assert.assertFalse(policiesRestController.findAll().isEmpty());        
+        assertThat(policiesRestController.findAll().isEmpty(), equalTo(false));
+ 
         Mockito.verify(policiesService,Mockito.times(1)).findAll();
         
 
 	}
+
+
 
 	
 }
