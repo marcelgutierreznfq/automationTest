@@ -1,7 +1,0 @@
-com\example\demo\controller\PoliciesRestController.class
-com\example\demo\dao\PoliciesDAO.class
-com\example\demo\service\PoliciesService.class
-com\example\demo\AppiamApiApplication.class
-com\example\demo\service\PoliciesServiceImpl.class
-com\example\demo\entity\Policies.class
-com\example\demo\dao\PoliciesDAOImpl.class
