@@ -1,7 +1,7 @@
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\controller\DivisasRestController.java
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\entity\Divisas.java
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\config\WebConfig.java
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\service\DivisasService.java
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\AppiamApiApplication.java
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\repository\DivisasRepository.java
-C:\Users\marcel.gutierrez\Sprint-Test\APPIAM-API\src\main\java\com\example\demo\config\SwaggerConfig.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\AppiamApiApplication.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\dao\PoliciesDAO.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\controller\PoliciesRestController.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\service\PoliciesServiceImpl.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\dao\PoliciesDAOImpl.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\entity\Policies.java
+C:\Users\marcel.gutierrez\Documents\GitHub\automationTest\APPIAM-API\APPIAM-API\src\main\java\com\example\demo\service\PoliciesService.java
