@@ -32,9 +32,9 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   # Customize trigger events based on your DevSecOps processes.
   push:
-    branches: [ "developBranch" ]
+    branches: developBranch
   pull_request:
-    branches: [ "developBranch" ]
+    branches: developBranch
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,7 +44,7 @@ permissions:
   contents: read
 
 jobs:
-  Trigger APIsec scan:
+  Trigger-APIsec-scan:
     permissions:
       security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
     runs-on: ubuntu-latest
